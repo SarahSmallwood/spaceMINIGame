@@ -1,0 +1,51 @@
+.gameTitle{
+    border: solid black;
+    text-align: center;
+    background-color: blueviolet;
+}
+.mainBox{
+    height: 90vh;
+    width: 100%;
+    background-image: url(https://thumbs.gfycat.com/AnimatedDeficientAlleycat-size_restricted.gif);
+    background-size: cover;
+    background-size: 100%;
+}
+.shipContainer{
+    height: 50vh;
+    display: flex;
+}
+.ship1, .ship2{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.buttonContainer{
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.displayContainer{
+    border: solid purple;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.fire{
+    height: 60px;
+    width: 100px;
+    background-color: firebrick;
+    color: white;
+    font-size: 20px;
+}
+.retreat{
+    height: 60px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
